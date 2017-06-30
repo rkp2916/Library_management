@@ -1,0 +1,72 @@
+/* CSS Document */
+.home_center_wrapper{
+	width: 400px;
+	height: 300px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+.home_center_wrapper > table{
+	width: 100%;
+}
+.home_center_wrapper td{
+	padding: 8px;
+}
+.home_center_wrapper  div{
+	background: #FFF;
+	border: 1px solid #EAEAEA;
+	border-radius: 16px;
+	padding: 8px;
+	align-content: center;
+	align-items: center;
+}
+.home_center_wrapper  div:hover{
+    box-shadow: 5px 5px 45px #EAEAEA;
+	cursor: pointer;
+}
+.admin_login_wrapper, .reader_login_wrapper{
+	display: none;
+	background: #FFF;
+	border: 1px solid #ccc;
+	border-radius: 16px;
+	padding: 16px;
+	box-shadow: 5px 5px 90px #EAEAEA;
+	width: 300px;
+	height: 300px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -150px;
+	margin-left: -150px;
+}
+.card{
+	border-radius: 16px !important;
+    background: rgba(255,255,255,0.5) !important;
+}
+.card .header{
+	    border-bottom: 1px solid #807f82 !important;
+    padding: 16px !important;
+    text-align: center !important;
+    color: white !important;
+}
+.card h4{
+	color: #807f82 !important;
+    font-size: xx-large !important;
+    font-weight: 400 !important;
+}
+.main-panel{
+	background: url(http://localhost/library/core/img/bg.png) !important; background-size: cover !important; background-position: center !important;
+}
+.form-horizontal .control-label {
+	padding-top: 19px !important;
+	color: #333;
+}
+@media (min-width: 992px)
+.card form [class*="col-"]:first-child {
+    padding-left: 15px !important;
+    margin-top: 2px !important;
+    color: #333 !important;
+
+
